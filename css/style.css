@@ -2,12 +2,13 @@ body, div, h1, h2, h3, h4, h5, h6,
 {
 	margin: 0px;
 	padding: 0px;
+	background: ;
 }
 
 
 #header, #main, #sidebar, #content, #footer
 {
-	border: solid 1px blue;
+	border: solid 1px green;
 }
 
 #header, #footer
@@ -15,9 +16,24 @@ body, div, h1, h2, h3, h4, h5, h6,
 	height: 100px;
 }
 
+
+#header, #sidebar
+{
+}
+
+
+#header, #sidebar
+{
+}
+
+
 #sidebar, #content
 {
 	height: 300px;
 	display: inline-block;
+}
+
+.orange-bg
+{
 }
 
