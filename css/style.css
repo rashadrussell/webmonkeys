@@ -1,8 +1,7 @@
-body, div, h1, h2, h3, h4, h5, h6,
+body, div, h1, h2, h3, h4, h5, h6
 {
 	margin: 0px;
 	padding: 0px;
-	background: ;
 }
 
 
@@ -13,27 +12,41 @@ body, div, h1, h2, h3, h4, h5, h6,
 
 #header, #footer
 {
-	height: 100px;
+	height: 50px;
 }
 
 
 #header, #sidebar
 {
+	background-color: #ccc;
 }
 
 
 #header, #sidebar
 {
+	background-color: yellow;
 }
 
-
-#sidebar, #content
-{
-	height: 300px;
+#content, #sidebar
+{	
+	height: 600px;
 	display: inline-block;
+	vertical-align: top;
 }
 
+#sidebar
+{
+	width: 200px;
+}
+
+#content
+{
+	width: 600px;
+}
+
+/* This is a comment block for css. Any thing in this block will not be rendered in the browser. */
 .orange-bg
 {
+	/* background-color: orange; */
 }
 
