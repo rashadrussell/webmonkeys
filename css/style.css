@@ -5,7 +5,7 @@ body, div, h1, h2, h3, h4, h5, h6
 }
 
 
-#header, #main, #sidebar, #content, #footer
+#header, #main, #sidebar, #sidebar2, #content, #footer
 {
 	border: solid 1px green;
 }
@@ -18,7 +18,7 @@ body, div, h1, h2, h3, h4, h5, h6
 
 #header, #sidebar
 {
-	background-color: #ccc;
+	background-color: red;
 }
 
 
@@ -27,14 +27,14 @@ body, div, h1, h2, h3, h4, h5, h6
 	background-color: yellow;
 }
 
-#content, #sidebar
+#content, #sidebar, #sidebar2
 {	
 	height: 600px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-#sidebar
+#sidebar, #sidebar2
 {
 	width: 200px;
 }
