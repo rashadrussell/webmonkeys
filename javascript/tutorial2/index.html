@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+	<div id="todoList">
+		<input id="todoList-input" />
+
+		<ul id="list">
+		</ul>
+	</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/todoList.js"></script>
+
+<!-- 
+	Let's make a template for the todo list items that we will append to the todo list. We do not want
+	to add a bunch of HTML into our JavaScript file therefore we made this template. This is a trick called
+	HTML templating. Since the Script tag was originally meant for JavaScript, which does not get displayed
+	in the DOM, we can put HTML in side the Script tag, and with the help of the "id" attribute, we will
+	be able to identify the this particular tag, and grab the content inside using JavaScript. 
+
+	The type attribute is set to "text/todoList-item-template". The convention is to name it to something
+	similar to text/'nameOfID'-template.
+
+	Check out the Handlebars HTML templating engine.
+-->
+<script id="todoList-item-template" type="text/todoList-item-template">
+
+	<li class="item">
+		<span class="content"></span>
+		<a href="#" class="close">x</a>
+	</li>
+
+</script>
+
+</body>
+</html>
