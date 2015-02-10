@@ -1,0 +1,59 @@
+body, div, h1, h2, h3, h4, h5, h6
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#header, #main, #sidebar, #sidebar2, #content, #footer
+{
+	border: solid 1px green;
+}
+
+
+
+#header, #footer
+{
+	height: 50px;
+}
+
+
+#header, #sidebar
+{
+	background-color: red;
+}
+
+
+#header, #sidebar
+{
+	background-color: yellow;
+}
+
+#header {
+	background: url("http://www.w3schools.com/images/w3logotest2.png");
+	background-repeat: no-repeat;
+}
+
+#content, #sidebar, #sidebar2
+{	
+	height: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#sidebar, #sidebar2 ul
+{
+	width: 200px;
+}
+
+#content
+{
+	width: 600px;
+}
+
+/* This is a comment block for css. Any thing in this block will not be rendered in the browser. */
+.orange-bg
+{
+	/*\\ background-color: orange; */
+}
+
